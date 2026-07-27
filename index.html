@@ -385,6 +385,19 @@
   .wa-float:hover{transform:scale(1.08);}
   .wa-float svg{width:26px;height:26px;}
 
+  /* ---------- floating instagram ---------- */
+  .ig-float{
+    position:fixed;right:22px;bottom:88px;z-index:60;
+    width:56px;height:56px;border-radius:50%;
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color:var(--white);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 8px 22px rgba(0,0,0,.28);
+    transition:transform .2s ease;
+  }
+  .ig-float:hover{transform:scale(1.08);}
+  .ig-float svg{width:24px;height:24px;}
+
   /* reveal on scroll */
   .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease, transform .6s ease;}
   .reveal.in{opacity:1;transform:translateY(0);}
@@ -647,7 +660,8 @@
         ID Card & Lanyard — <span>Dua Sisi</span>
     </div>
 
-</div>
+    </div>
+  </div>
 </section>
 
 <!-- ============ TESTIMONI ============ -->
@@ -765,7 +779,7 @@
         <div>
           <h4>Terhubung</h4>
           <a href="https://wa.me/6285174257542">WhatsApp</a>
-          <a href="#">Instagram</a>
+          <a href="https://www.instagram.com/ndesignsid/" target="_blank" rel="noopener">Instagram</a>
         </div>
       </div>
     </div>
@@ -775,6 +789,10 @@
     </div>
   </div>
 </footer>
+
+<a class="ig-float" href="https://www.instagram.com/ndesignsid/" target="_blank" rel="noopener" aria-label="Kunjungi Instagram">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+</a>
 
 <a class="wa-float" href="https://wa.me/6285174257542?text=Halo%20NDesigns.id" aria-label="Chat WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.39a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.06c-.24.68-1.4 1.3-1.94 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.79-4.16-4.94-4.35-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.77-.36l.55.01c.18 0 .42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.28.29-.12.57.16.28.71 1.17 1.52 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.36-.22.6-.13.24.09 1.55.73 1.82.86.27.13.44.2.51.31.07.11.07.63-.17 1.3z"/></svg>
